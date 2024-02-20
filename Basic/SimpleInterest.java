@@ -10,5 +10,6 @@ public class SimpleInterest{
         double SimpleInterest= (principal*time*rate) /100;
         System.out.println(SimpleInterest);
 
+ 
     }
 }
