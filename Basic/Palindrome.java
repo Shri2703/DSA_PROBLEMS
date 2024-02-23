@@ -6,9 +6,9 @@ public class Palindrome{
         Scanner input = new Scanner(System.in);
         String word =input.nextLine();
         if(isPanlindrome(word)){
-            System.out.println(  word+"is is Palindrome");
+            System.out.println(word+"is is Palindrome");
         }else{
-            System.out.println(word + "is not a palindrome ");
+            System.out.println(word+ "is not a palindrome ");
         }
     }
     public static boolean isPanlindrome(String word){
