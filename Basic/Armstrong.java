@@ -1,19 +1,4 @@
-//To find Armstrong Number between two given number
-
 import java.util.Scanner;
-
-public class Armstrong{
-    public static void main(String[] args){
-        Scanner input = new Scanner(System.in);
-        int lower = input.nextInt();
-        int upper = input.nextInt();
-        System.out.println("Armstrong number between"+lower+"and"+upper+"are:");
-        for(int i = lower;i <= upper;i++){
-            if(isArmstrong(i)){
-                System.out.println(i);
-            }
-        }
-    }import java.util.Scanner;
 
 public class Armstrong {
     public static void main(String[] args) {
@@ -51,19 +36,3 @@ public class Armstrong {
     }
 }
 
-}
-public static boolean isArmstrong(int number){
-    int orNu,rem,res = 0,n = 0;
-    orNu = number;
-    while (orNu !=0){
-        orNu /= 10;
-        ++n;
-    }
-    orNu = number;
-    while (orNu !=0){
-        rem = orNu % 10;
-        res += Math.pow(rem,n);
-        orNu /= 10;
-    }
-    return res == number;
-}
