@@ -17,5 +17,6 @@ public class PyramidVolume {
         System.out.println("Volume of the pyramid: " + volume);
 
         scanner.close();
+ 
     }
 }
