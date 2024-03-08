@@ -11,7 +11,7 @@ public class SumOfNNumbers{
             int num = input.nextInt();
             sum +=num;
         }
-        System.out.println("sum of"+ N+"numbers is :"+sum);
+        System.out.println("sum of"+ N +"numbers is :"+sum);
         input.close();
     }
 }
