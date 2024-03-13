@@ -16,8 +16,8 @@ public class ArmstrongNumber {
             numberOfDigits++;
         }
 
-        // Calculate the sum of digits raised to the power of the number of digits
-        int sum = 0;
+        // Calculate the sum of digits raised to the power of the number of digits 
+        int sum = 0;  
         originalNumber = number;
         while (originalNumber != 0) {
             int digit = originalNumber % 10;
