@@ -7,8 +7,6 @@ class Solution {
       prod *= n % 10;
       summ += n % 10;
     }
-
-    return prod - summ;
-        
+    return prod - summ; 
     }
 }
