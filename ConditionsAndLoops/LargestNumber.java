@@ -4,7 +4,7 @@ public class LargestNumber{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
-        int largest = integer.MIN_VALUE;
+        int largest = Integer.MIN_VALUE;
         int number;
 
         System.out.println("Enter integers(0 to stop):");
