@@ -5,7 +5,7 @@ class Solution {
 
     for (; n > 0; n /= 10) {
       prod *= n % 10; 
-      summ += n % 10;
+      summ += n % 10; 
     }
     return prod - summ; 
     }
