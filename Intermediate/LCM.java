@@ -10,6 +10,7 @@ public class LCM{
     }
     public static int calculatelLCM(int a, int b){
         int hcf = calculateHCF(a,b);
+      
         return(a*b)/hcf;
     }
     public static int calculateHCF(int a, int b) {
