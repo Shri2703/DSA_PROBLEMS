@@ -22,7 +22,6 @@ public class PerfectNumber{
                 if( i * i != number){
                     sum +=number /i;
                 }
-
             }
         }
           return sum == number;
