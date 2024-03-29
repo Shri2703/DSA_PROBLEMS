@@ -16,6 +16,7 @@ public class SumOfDigits{
             sum += digit;
             number /= 10;
         }
+        
         return sum;
     }
 }
