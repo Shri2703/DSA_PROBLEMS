@@ -8,7 +8,7 @@ public class CGPACalculator{
 
         double totalCredits = 0;
         double totalGradePoints = 0;
-
+        
         for(int i = 1;i<=totalCourses;i++){
             System.out.println("Enter details for Course " + i + ":");  
             System.out.print("Credit hours: ");

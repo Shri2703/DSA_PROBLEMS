@@ -19,9 +19,8 @@ public class DepreciationCalculator {
         // Calculate annual depreciation
         double annualDepreciation = (initialCost - salvageValue) / usefulLife;
 
-        // Output the annual depreciation
+    
         System.out.println("Annual depreciation: $" + annualDepreciation);
-
         scanner.close();
     }
 }
