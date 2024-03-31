@@ -15,7 +15,6 @@ public class DepreciationCalculator {
         // Input the useful life of the asset in years
         System.out.print("Enter the useful life of the asset (in years): ");
         int usefulLife = scanner.nextInt();
-
         // Calculate annual depreciation
         double annualDepreciation = (initialCost - salvageValue) / usefulLife;
         System.out.println("Annual depreciation: $" + annualDepreciation);
