@@ -13,7 +13,7 @@ public class CGPACalculator{
             System.out.print("Credit hours: "); 
  
             double creditHours = input.nextDouble();
-            System.out.print("Grate points:");
+            System.out.print("Grate points:"); 
             double gradePoints = input.nextDouble();
 
             totalCredits += creditHours;
