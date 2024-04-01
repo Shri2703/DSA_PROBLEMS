@@ -5,7 +5,7 @@ public class CGPACalculator{
         Scanner input = new Scanner(System.in);
         System.out.print("Enter total number of courses:");
         int totalCourses = input.nextInt();
-
+ 
         double totalCredits = 0;
         double totalGradePoints = 0;
         for(int i = 1;i<=totalCourses;i++){
