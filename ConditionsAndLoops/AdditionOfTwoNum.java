@@ -6,7 +6,7 @@ public class AdditionOfTwoNum{
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the First Number:");
         double number1 = input.nextDouble();
-        System.out.println("Enter the Second Number:"); 
+        System.out.println("Enter the Second Number:");
         double number2 = input.nextDouble();
 
         double Sum = number1 + number2;
