@@ -11,7 +11,6 @@ public class DepreciationCalculator {
         // Input the salvage value (the value of the asset at the end of its useful life)
         System.out.print("Enter the salvage value: ");
         double salvageValue = scanner.nextDouble();
-
         // Input the useful life of the asset in years
         System.out.print("Enter the useful life of the asset (in years): ");
         int usefulLife = scanner.nextInt();
