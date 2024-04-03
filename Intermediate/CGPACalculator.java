@@ -5,15 +5,15 @@ public class CGPACalculator{
         Scanner input = new Scanner(System.in);
         System.out.print("Enter total number of courses:");
         int totalCourses = input.nextInt();
-
+ 
         double totalCredits = 0;
         double totalGradePoints = 0;
         for(int i = 1;i<=totalCourses;i++){
             System.out.println("Enter details for Course " + i + ":");  
-            System.out.print("Credit hours: ");
+            System.out.print("Credit hours: ");  
  
             double creditHours = input.nextDouble();
-            System.out.print("Grate points:");
+            System.out.print("Grate points:"); 
             double gradePoints = input.nextDouble();
 
             totalCredits += creditHours;
