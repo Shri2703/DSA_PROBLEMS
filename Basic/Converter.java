@@ -1,6 +1,5 @@
 //Input currency in rupees and output in USD
 import java.util.Scanner;
-
 public class Converter{
     public static void main(String[] args){
         //1 IND = 0.014USD
