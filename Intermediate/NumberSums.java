@@ -12,8 +12,17 @@ public class NumberSums{
 
             if(num ==0){
                 break;
+            }else if(num < 0){
+                negativeSum += num;
+            }else if(num % 2 == 0){
+                positiveEvenSum += num;
+            }else{
+                positiveOddSum += num;
             }
         }
+         System.out.println("Sum of negative numbers: " + negativeSum);
+        System.out.println("Sum of positive even numbers: " + positiveEvenSum);
+        System.out.println("Sum of positive odd numbers: " + positiveOddSum);
 
     }
 }
