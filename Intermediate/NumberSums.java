@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class NumberSums{
-    public static void main(String[],args){
+    public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         int negativeSum = 0;
         int positiveEvenSum =0;
@@ -20,7 +20,8 @@ public class NumberSums{
                 positiveOddSum += num;
             }
         }
-         System.out.println("Sum of negative numbers: " + negativeSum);
+        
+        System.out.println("Sum of negative numbers: " + negativeSum);
         System.out.println("Sum of positive even numbers: " + positiveEvenSum);
         System.out.println("Sum of positive odd numbers: " + positiveOddSum);
 
