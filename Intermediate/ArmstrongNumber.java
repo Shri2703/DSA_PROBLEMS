@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class ArmstrongNumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         // Input the number to check
         System.out.print("Enter a number: ");
         int number = scanner.nextInt();
