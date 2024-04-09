@@ -17,5 +17,4 @@ public class HCF{
         }
         return a;
     }
-
 }
