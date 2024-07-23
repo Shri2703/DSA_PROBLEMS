@@ -13,8 +13,6 @@ class Solution {
             }
             wealth=0;
         }
-        
-
         return max;
     }
 }

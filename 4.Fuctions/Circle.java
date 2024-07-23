@@ -10,6 +10,5 @@ public class Circle{
 
         double Cirumference = Math.PI*2*radius;
         System.out.printf("\nCirumference is:%.2f",Cirumference);
-
     }
 }
