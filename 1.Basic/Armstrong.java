@@ -13,7 +13,7 @@ public class Armstrong {
         }
     }
 
-    public static boolean isArmstrong(int number) {
+    public static boolean isArmstrong(int number) { 
         int originalNumber, remainder, result = 0, n = 0;
         originalNumber = number;
 
