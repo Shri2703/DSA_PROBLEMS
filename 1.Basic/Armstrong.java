@@ -6,7 +6,7 @@ public class Armstrong {
         int lower = input.nextInt();
         int upper = input.nextInt(); 
         System.out.println("Armstrong numbers between " + lower + " and " + upper + " are:");  
-        for (int i = lower; i <= upper; i++) {  
+        for (int i = lower; i <= upper; i++) {   
             if (isArmstrong(i)) {
                 System.out.println(i);
             }
