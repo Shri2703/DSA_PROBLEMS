@@ -4,7 +4,7 @@ public class Armstrong {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int lower = input.nextInt();
-        int upper = input.nextInt();
+        int upper = input.nextInt(); 
         System.out.println("Armstrong numbers between " + lower + " and " + upper + " are:");  
         for (int i = lower; i <= upper; i++) {  
             if (isArmstrong(i)) {
