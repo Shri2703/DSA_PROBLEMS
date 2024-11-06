@@ -1,18 +1,19 @@
+
 import java.util.Scanner;
 public class Armstrong {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int lower = input.nextInt();
-        int upper = input.nextInt();
-        System.out.println("Armstrong numbers between " + lower + " and " + upper + " are:");
-        for (int i = lower; i <= upper; i++) {
+        int upper = input.nextInt(); 
+        System.out.println("Armstrong numbers between " + lower + " and " + upper + " are:");      
+        for (int i = lower; i <= upper; i++) {    
             if (isArmstrong(i)) {
                 System.out.println(i);
             }
         }
     }
 
-    public static boolean isArmstrong(int number) {
+    public static boolean isArmstrong(int number) { 
         int originalNumber, remainder, result = 0, n = 0;
         originalNumber = number;
 
