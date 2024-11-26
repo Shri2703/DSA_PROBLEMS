@@ -7,6 +7,6 @@ public class Converter{
         Scanner input = new Scanner(System.in);
         double indamount = input.nextDouble();
         double indToUsd = indamount * exchage;
-        System.out.println("the Usd AMount $:" + indToUsd);
+        System.out.println("the Usd AMount $:" + indToUsd); 
     }
 }
